@@ -1,0 +1,120 @@
+export const T = {
+    en: {
+        brand: "Mushroom Kitchen",
+        nav: { home: "Home", recipes: "Recipes", shops: "Shops", contact: "Contact", about: "About", blog: "Blog" },
+        search: "Search...",
+        heroTitle: "The Art of Mushroom Cooking",
+        heroSub: "From earthy portobellos to delicate chanterelles — celebrate fungi in all their umami glory.",
+        categories: "Categories",
+        all: "All",
+        viewRecipe: "View Recipe",
+        viewShop: "Visit Shop",
+        ingredients: "Ingredients",
+        method: "Method",
+        servings: "servings",
+        readMore: "Read More",
+        contactTitle: "Get In Touch",
+        contactSub: "We'd love to hear from you. Reach out any time.",
+        hours: "Open Hours",
+        hoursVal: "Monday – Sunday, 9:00 AM – 5:00 PM",
+        phone: "Phone",
+        email: "Email",
+        aboutTitle: "About Mushroom Kitchen",
+        aboutSub: "Rooted in nature, grown with passion.",
+        blogTitle: "Mushroom Stories",
+        blogSub: "Tips, tales, and trivia from the world of fungi.",
+        featuredMushroomsTitle: "Our Premium Mushrooms",
+        shopCategories: ["All", "Local", "Imported", "Organic"],
+    },
+    si: {
+        brand: "මාෂ්රූම් කිචන්",
+        nav: { home: "මුල් පිටුව", recipes: "වට්ටෝරු", shops: "වෙළඳසැල්", contact: "අප අමතන්න", about: "අප ගැන", blog: "බ්ලොග්" },
+        search: "සොයන්න...",
+        heroTitle: "හතු පිසීමේ කලාව",
+        heroSub: "පෘථිවිය සුවඳ සහිත හතු වලින් රසවත් ආහාර — ආහාර ලෝකයේ අලුත් රස ගවේෂණය.",
+        categories: "ප්‍රවර්ග",
+        all: "සියල්ල",
+        viewRecipe: "වට්ටෝරුව බලන්න",
+        viewShop: "වෙළඳසැල බලන්න",
+        ingredients: "අමුද්‍රව්‍ය",
+        method: "ක්‍රමය",
+        servings: "දෙනෙකුට",
+        readMore: "තව කියවන්න",
+        contactTitle: "අප හා සම්බන්ධ වන්න",
+        contactSub: "ඔබගේ පණිවිඩ අපට ලබා දෙන්න. ඕනෑම වෙලාවක අමතන්න.",
+        hours: "විවෘත වේලාව",
+        hoursVal: "සඳුදා – ඉරිදා, පෙ.ව. 9:00 – ප.ව. 5:00",
+        phone: "දුරකථන",
+        email: "විද්‍යුත් තැපෑල",
+        aboutTitle: "මාෂ්රූම් කිචන් ගැන",
+        aboutSub: "ස්වභාවයෙන් උපත ලැබ, ආශාවෙන් වගා කරන ලද.",
+        blogTitle: "හතු කතා",
+        blogSub: "හතු ලෝකයෙන් ඉඟි, කතා සහ රසවත් තොරතුරු.",
+        featuredMushroomsTitle: "අපගේ ප්‍රිමියම් හතු",
+        shopCategories: ["සියල්ල", "දේශීය", "ආනයනික", "කාබනික"],
+    },
+};
+
+export const sliderMushroomsData = [
+    {
+        name: { en: "American Oyster Mushroom", si: "ඇමෙරිකන් ඔයිස්ටර් හතු" },
+        desc: { en: "Delicate, fan-shaped caps with a mild, anise-like flavour. Perfect for stir-fries and soups.", si: "මෘදු, රසවත් රසයක් සහිත පෙති-හැඩ හතු. ෆ්‍රයිඩ් රයිස් සහ සුප් සඳහා වඩාත් සුදුසු." },
+        emoji: "🦪",
+        color: "from-slate-600 to-slate-800",
+        img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+    },
+    {
+        name: { en: "Abalone Mushroom", si: "අබලෝන් හතු" },
+        desc: { en: "Thick, meaty texture resembling abalone. Rich umami taste, ideal for grilling or braising.", si: "ඝන, මස් බඳු සැකැස්ම. ග්‍රිල් කිරීම හෝ ස්ටූ කිරීම සඳහා ඉතාමත් සුදුසු." },
+        emoji: "🍄",
+        color: "from-amber-700 to-amber-900",
+        img: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&q=80",
+    },
+    {
+        name: { en: "Milky Mushroom", si: "කිරි හතු" },
+        desc: { en: "Pure white, firm mushrooms with a subtle creamy taste. A versatile ingredient in any cuisine.", si: "සුදු, දෘඪ හතු, සියුම් කිරිවැල් රසයකින් යුත්. ඕනෑම ආහාර වට්ටෝරුවකට ගැළපෙන." },
+        emoji: "🤍",
+        color: "from-stone-500 to-stone-700",
+        img: "https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&q=80",
+    },
+    {
+        name: { en: "Button Mushroom", si: "බටන් හතු" },
+        desc: { en: "The world's most popular mushroom. Mild flavour that intensifies when cooked. A kitchen staple.", si: "ලොව වඩාත්ම ජනප්‍රිය හතු. රත් කළ විට රස වැඩිවේ. ගෙදර ආහාර පිසීමේ අත්‍යවශ්‍ය අමුද්‍රව්‍යයකි." },
+        emoji: "⚪",
+        color: "from-neutral-600 to-neutral-800",
+        img: "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=800&q=80",
+    },
+];
+
+export const recipes = [
+    { id: 1, title: "Creamy Garlic Mushroom Pasta", titleSi: "ක්‍රීමි ගාර්ලික් හතු පාස්තා", category: "Pasta", time: "25 min", servings: 4, difficulty: "Easy", emoji: "🍝", img: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80", desc: "Silky pasta tossed with earthy mushrooms in a luscious garlic cream sauce.", descSi: "සිල්කි පාස්තා, කිරි සෝස් සහිතව රසවත් ලෙස සාදා ගත්ත ස්නේකයකි.", ingredients: ["400g spaghetti", "500g mixed mushrooms", "6 garlic cloves", "300ml heavy cream", "100ml white wine", "Parmesan", "Fresh thyme", "Olive oil"], steps: ["Cook pasta al dente. Reserve 1 cup pasta water.", "Sauté sliced mushrooms in olive oil until golden.", "Add minced garlic and thyme, cook 1 min.", "Deglaze with wine, reduce by half.", "Pour in cream, simmer until thick.", "Toss with pasta, loosen with pasta water.", "Finish with parmesan and black pepper."], tags: ["Vegetarian", "Creamy", "Quick"] },
+    { id: 2, title: "Wild Mushroom Risotto", titleSi: "වල් හතු රිසොට්ටෝ", category: "Rice", time: "45 min", servings: 4, difficulty: "Medium", emoji: "🍚", img: "https://images.unsplash.com/photo-1673040810990-0e93e8ac3b73?w=600&q=80", desc: "Classic Italian risotto with porcini and mixed wild mushrooms.", descSi: "ක්ලැසික් ඉතාලි රිසොට්ටෝ, පොර්සිනි සහ වල් හතු සමඟ.", ingredients: ["320g Arborio rice", "30g dried porcini", "300g fresh mushrooms", "1L warm stock", "1 onion", "100ml white wine", "80g butter", "Parmesan"], steps: ["Soak porcini 20 min, reserve liquid.", "Sauté onion in butter until soft.", "Toast rice 2 min, add wine.", "Add stock ladle by ladle, stirring.", "Add mushrooms halfway through.", "Stir in butter and parmesan off heat.", "Rest 2 min, serve immediately."], tags: ["Vegetarian", "Italian", "Comfort"] },
+    { id: 3, title: "Mushroom & Truffle Soup", titleSi: "හතු ට්‍රෆල් සුප්", category: "Soup", time: "35 min", servings: 6, difficulty: "Easy", emoji: "🍲", img: "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80", desc: "Velvety blended mushroom soup with a luxurious drizzle of truffle oil.", descSi: "ශ්‍රේෂ්ඨ ට්‍රෆල් තෙල් සහිත මෘදු හතු සුප්.", ingredients: ["800g cremini mushrooms", "2 onions", "4 garlic cloves", "1L vegetable stock", "200ml cream", "Truffle oil", "Fresh thyme", "Sourdough bread"], steps: ["Sauté onions and garlic until soft.", "Add mushrooms, cook until fragrant.", "Pour in stock, simmer 15 min.", "Blend until smooth.", "Stir in cream, season well.", "Serve with truffle oil drizzle."], tags: ["Vegan-adaptable", "Elegant", "Blended"] },
+    { id: 4, title: "Stuffed Portobello Mushrooms", titleSi: "පොර්ටොබෙලෝ හතු ඇසුරුම්", category: "Main", time: "30 min", servings: 4, difficulty: "Easy", emoji: "🫕", img: "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?w=600&q=80", desc: "Giant portobellos stuffed with spinach, ricotta and sun-dried tomatoes.", descSi: "රිකොටා සහ ස්පිනාච් සහිතව අනා ගත් විශාල පොර්ටොබෙලෝ හතු.", ingredients: ["4 large portobello caps", "250g ricotta", "200g baby spinach", "Sun-dried tomatoes", "2 garlic cloves", "50g Parmesan", "Pine nuts", "Fresh basil"], steps: ["Preheat oven to 200°C.", "Wilt spinach with garlic.", "Mix with ricotta and tomatoes.", "Fill each mushroom cap.", "Top with parmesan and pine nuts.", "Bake 20 min until golden."], tags: ["Vegetarian", "Baked", "Filling"] },
+    { id: 5, title: "Mushroom Shakshuka", titleSi: "හතු ෂක්ෂූකා", category: "Breakfast", time: "20 min", servings: 2, difficulty: "Easy", emoji: "🍳", img: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600&q=80", desc: "Middle Eastern spiced mushroom and tomato base with poached eggs.", descSi: "මිනිස්කෑරිය සහිත හතු සහ තක්කාලි මිශ්‍රණයක ගිලෙන ලද බිත්තර.", ingredients: ["400g mushrooms", "400g canned tomatoes", "1 onion", "3 garlic cloves", "4 eggs", "Cumin, paprika, chilli", "Fresh coriander", "Crusty bread"], steps: ["Sauté onion and garlic with spices.", "Add mushrooms, cook until soft.", "Pour in tomatoes, simmer 10 min.", "Make wells, crack in eggs.", "Cover and cook to liking.", "Garnish with coriander."], tags: ["Breakfast", "Spiced", "One-pan"] },
+    { id: 6, title: "Miso Mushroom Ramen", titleSi: "මිසෝ හතු රාමෙන්", category: "Noodles", time: "40 min", servings: 2, difficulty: "Medium", emoji: "🍜", img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&q=80", desc: "Rich miso broth loaded with shiitake mushrooms and noodles.", descSi: "ෂිටාකේ හතු සහ නූඩ්ල්ස් සහිත රිච් මිසෝ හූ.", ingredients: ["2 portions ramen noodles", "200g shiitake mushrooms", "3 tbsp white miso", "1L dashi stock", "Soft boiled eggs", "Nori sheets", "Spring onions", "Sesame oil"], steps: ["Bring dashi stock to simmer.", "Whisk miso into stock.", "Pan-fry shiitake in sesame oil.", "Cook noodles per packet.", "Assemble bowls with broth.", "Top with mushrooms and egg."], tags: ["Japanese", "Umami", "Warming"] },
+];
+
+export const shops = [
+    { id: 1, name: "Forest Fungi Farm", nameSi: "වන හතු ගොවිපල", category: "Local", emoji: "🌿", img: "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&q=80", desc: "Family-run organic mushroom farm supplying fresh local varieties daily.", descSi: "දිනපතා නැවුම් දේශීය හතු සපයන පවුල් කාබනික ගොවිපලක්.", location: "Kandy Road, Colombo", phone: "071 234 5678", rating: "4.9", products: ["Oyster", "Button", "Milky", "Shiitake"], tags: ["Organic", "Local", "Fresh"] },
+    { id: 2, name: "The Mushroom Market", nameSi: "හතු වෙළඳසල", category: "Local", emoji: "🛒", img: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&q=80", desc: "One-stop shop for all mushroom varieties, dried, fresh, and powdered.", descSi: "සැල, නැවුම් සහ කුඩු ස්වරූපයෙන් සියළු හතු ලැබෙන වෙළඳසල.", location: "Pettah Market, Colombo", phone: "011 456 7890", rating: "4.7", products: ["All Varieties", "Dried", "Powders", "Extracts"], tags: ["Wholesale", "Variety", "City"] },
+    { id: 3, name: "Premium Fungi Imports", nameSi: "ප්‍රිමියම් ආනයන හතු", category: "Imported", emoji: "✈️", img: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80", desc: "Rare imported varieties including Truffle, Morel, and Chanterelle.", descSi: "ට්‍රෆල්, මොරල් සහ චන්ටරෙල් ඇතුළු දුර්ලභ ආනයනික හතු.", location: "Colombo 03", phone: "077 890 1234", rating: "4.8", products: ["Truffle", "Morel", "Chanterelle", "Porcini"], tags: ["Imported", "Rare", "Premium"] },
+    { id: 4, name: "Green Earth Organics", nameSi: "ග්‍රීන් අර්ත් ඕගනික්ස්", category: "Organic", emoji: "🌱", img: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80", desc: "Certified organic mushrooms grown without any pesticides or chemicals.", descSi: "කෘමිනාශක රහිතව වගා කළ සහතිකලත් කාබනික හතු.", location: "Nugegoda, Colombo", phone: "076 567 8901", rating: "5.0", products: ["Organic Oyster", "Organic Button", "Organic Shiitake"], tags: ["Certified", "No-Pesticide", "Healthy"] },
+    { id: 5, name: "Mushroom Medicals", nameSi: "ඖෂධීය හතු", category: "Organic", emoji: "🏥", img: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&q=80", desc: "Medicinal mushroom supplements, tinctures, and wellness products.", descSi: "ඖෂධීය හතු සප්ලිමන්ට්, ටින්ක්චර් සහ සෞඛ්‍ය නිෂ්පාදන.", location: "Rajagiriya, Colombo", phone: "075 123 4567", rating: "4.6", products: ["Reishi", "Lion's Mane", "Chaga", "Cordyceps"], tags: ["Medicinal", "Wellness", "Supplements"] },
+    { id: 6, name: "SporeBox Delivery", nameSi: "ස්පෝර් බොක්ස් ඩිලිවරි", category: "Local", emoji: "📦", img: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=600&q=80", desc: "Subscription delivery boxes with seasonal fresh mushrooms to your door.", descSi: "ඔබේ දොරකඩට නැවුම් සෘතු හතු ලබා දෙන දායක ශ්‍රේණි.", location: "Island-wide delivery", phone: "070 987 6543", rating: "4.8", products: ["Weekly Box", "Monthly Box", "Gift Box"], tags: ["Delivery", "Subscription", "Gift"] },
+];
+
+export const blogs = [
+    { id: 1, title: "The Health Benefits of Medicinal Mushrooms", titleSi: "ඖෂධීය හතු වල සෞඛ්‍ය ප්‍රතිලාභ", date: "Apr 10, 2025", author: "Shenal", emoji: "🧬", img: "https://images.unsplash.com/photo-1515023115689-589c33041d3c?w=600&q=80", desc: "Discover how Reishi, Lion's Mane, and Chaga mushrooms are transforming modern wellness routines.", descSi: "රෙෂි, ලයන්ස් මේන් සහ චාගා හතු නූතන සෞඛ්‍ය ජීවිතය පරිවර්තනය කරන ආකාරය ගවේෂණය කරන්න.", tag: "Health" },
+    { id: 2, title: "How to Grow Oyster Mushrooms at Home", titleSi: "ගෙදරදී ඔයිස්ටර් හතු වගා කරන ආකාරය", date: "Mar 22, 2025", author: "Dilini", emoji: "🌱", img: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80", desc: "A step-by-step beginner's guide to growing delicious oyster mushrooms in your own kitchen.", descSi: "ඔබේම ගෙදර ඔයිස්ටර් හතු වගා කිරීම සඳහා පියවරෙන් පියවර ගිය මාර්ගෝපදේශය.", tag: "Growing" },
+    { id: 3, title: "5 Mushroom Recipes for Rainy Season", titleSi: "වැසි කාලයට හතු වට්ටෝරු 5", date: "Feb 14, 2025", author: "Kasun", emoji: "🌧️", img: "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80", desc: "Warm, comforting mushroom dishes perfect for those cosy rainy evenings in Sri Lanka.", descSi: "ශ්‍රී ලංකාවේ වැසි සාන්ත රාත්‍රිය සඳහා සුදුසු රසවත් හතු ආහාර 5ක්.", tag: "Recipes" },
+    { id: 4, title: "The Science of Umami: Why Mushrooms Taste So Good", titleSi: "උමාමි විද්‍යාව: හතු ඇයි රසවත් වන්නේ", date: "Jan 30, 2025", author: "Shenal", emoji: "🔬", img: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80", desc: "The chemistry behind glutamates and why mushrooms are nature's ultimate flavour enhancers.", descSi: "ග්ලූටාමේට් රසායන විද්‍යාව සහ හතු ස්වාභාවික රස වැඩිකරන්නන් ලෙස ක්‍රියා කරන ආකාරය.", tag: "Science" },
+    { id: 5, title: "Sri Lanka's Native Wild Mushrooms", titleSi: "ශ්‍රී ලංකාවේ දේශීය වල් හතු", date: "Jan 08, 2025", author: "Nimali", emoji: "🌿", img: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&q=80", desc: "Exploring the rich diversity of native wild mushrooms found in Sri Lanka's forests.", descSi: "ශ්‍රී ලංකාවේ වනාන්තරවල ඇති දේශීය වල් හතු විවිධත්වය ගවේෂණය කිරීම.", tag: "Nature" },
+    { id: 6, title: "Drying & Preserving Mushrooms at Home", titleSi: "ගෙදරදී හතු ශීත-කිරීම සහ ආරක්ෂා කිරීම", date: "Dec 15, 2024", author: "Kasun", emoji: "🌞", img: "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=800&q=80", desc: "Practical methods to dry, freeze and store mushrooms so they last all year round.", descSi: "හතු ශීත-කිරීමට, ශ්‍රීතකරණය කිරීමට සහ ගබඩා කිරීමට ප්‍රායෝගික ක්‍රම.", tag: "Tips" },
+];
+
+export const FS = {
+    small: { base: "text-xs", body: "text-sm", heading: "text-lg", hero: "text-3xl", card: "text-sm", sub: "text-xs" },
+    medium: { base: "text-sm", body: "text-base", heading: "text-2xl", hero: "text-4xl", card: "text-base", sub: "text-sm" },
+    large: { base: "text-base", body: "text-lg", heading: "text-3xl", hero: "text-5xl", card: "text-lg", sub: "text-base" },
+};
